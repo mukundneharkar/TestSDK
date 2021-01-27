@@ -10,7 +10,8 @@ __pycache__/
 .Python
 .idea
 env/
-build/
+#MBN
+#build/
 develop-eggs/
 dist/
 downloads/
@@ -56,7 +57,7 @@ venv/
 *.log
 
 # Sphinx documentation
-docs/_build/
+#docs/_build/
 
 # PyBuilder
 target/
