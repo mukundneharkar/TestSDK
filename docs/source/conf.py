@@ -31,7 +31,7 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # extensions = ['rinoh.frontend.sphinx', 'sphinx.ext.autodoc', 'sphinx_markdown_builder']
-extensions = ['sphinx.ext.napoleon', 'rst2pdf.pdfbuilder',
+extensions = ['sphinx.ext.napoleon', 'rst2pdf.pdfbuilder', 'sphinx_markdown_builder',
               'sphinxcontrib.confluencebuilder','recommonmark']
 
 # Add any paths that contain templates here, relative to this directory.
