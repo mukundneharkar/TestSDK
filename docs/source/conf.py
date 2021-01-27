@@ -32,7 +32,7 @@ release = '0.0.1'
 # ones.
 # extensions = ['rinoh.frontend.sphinx', 'sphinx.ext.autodoc', 'sphinx_markdown_builder']
 extensions = ['sphinx.ext.napoleon', 'rst2pdf.pdfbuilder',
-              'sphinxcontrib.confluencebuilder']
+              'sphinxcontrib.confluencebuilder','recommonmark']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
