@@ -1,9 +1,9 @@
 # coding: utf-8
 
-from setuptools import setup  # noqa: H301
+from setuptools import setup, find_packages  # noqa: H301
 
 NAME = "lmingest"
-VERSION = "0.0.1b1"
+VERSION = "0.0.1b2"
 # To install the library, run the following
 #
 # python setup.py install
@@ -38,5 +38,6 @@ setup(
       # 'Source': 'https://github.com/logicmonitor/logicmonitor_api_sdk_py',
       'Tracker': 'https://github.com/logicmonitor/logicmonitor_api_sdk_py/issues',
     },
+    packages=find_packages(),
 
 )
