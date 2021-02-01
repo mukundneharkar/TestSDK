@@ -12,7 +12,7 @@
 
 from setuptools import setup, find_packages  # noqa: H301
 
-NAME = "lmingestpy"
+NAME = "TestSDK"
 VERSION = "0.0.1"
 # To install the library, run the following
 #
@@ -33,7 +33,6 @@ setup(
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
-    long_description="""\
-    LogicMonitor is a SaaS-based performance monitoring platform that provides full visibility into complex, hybrid infrastructures, offering granular performance monitoring and actionable data and insights. API-Ingest provides the entry point in the form of public rest APIs for ingesting metrics into LogicMonitor. For using this application users have to create LMAuth token using access id and key from santaba.  # noqa: E501
-    """
+    long_description="""\ This Python Library is suitable for ingesting the 
+    metrics into the LogicMonitor Platform """
 )
